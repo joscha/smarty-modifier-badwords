@@ -5,7 +5,7 @@ use PHPUnit\Framework\TestCase;
 
 final class BadwordsTest extends TestCase
 {
-    public function testReplace(): void
+    public function testReplace()
     {
         $this->assertEquals(
             'Hello *** and not ****',
